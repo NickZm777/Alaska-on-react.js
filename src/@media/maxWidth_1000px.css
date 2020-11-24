@@ -1,0 +1,112 @@
+@media screen and (max-width: 1000px) {
+  .navItem {
+    font-size: 14px;
+  }
+
+  .logo img {
+    width: 110px;
+    height: 50px;
+  }
+
+  .bannerTitle {
+    font-size: 26px;
+    font-weight: 350px;
+  }
+
+  .content_1 {
+    height: 400px;
+    margin: 0px auto;
+  }
+
+  .left_1,
+  .right_1 {
+    width: 50%;
+    margin: 30px;
+    text-align: center;
+  }
+
+  .left_1 img {
+    float: left;
+  }
+
+  .right_1 img {
+    padding: 20px;
+  }
+
+  .content_2_background {
+    height: 1450px;
+    flex-direction: column;
+  }
+
+  .content_2,
+  .right_3 {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .content_2_box {
+    display: flex;
+  }
+
+  .left_2,
+  .right_2 {
+    width: 50%;
+  }
+
+  .right_3 p {
+    padding: 0px 20px;
+  }
+
+  .right_3 button {
+    margin-left: 20px;
+  }
+
+  .contentMap {
+    height: 950px;
+  }
+
+  .mapBox {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+  }
+
+  .mapDescription,
+  .map {
+    width: 100%;
+  }
+
+  .mapDescription p {
+    padding: 0px 50px;
+  }
+
+  .governor {
+    height: 1050px;
+  }
+
+  .governorDesription {
+    padding: 50px;
+  }
+
+  .governorBox {
+    flex-direction: column;
+  }
+
+  .governorBox div {
+    width: 100%;
+  }
+
+  .formBox form {
+    grid-template-columns: repeat(3, 1fr);
+    height: 360px;
+  }
+
+  .firstName,
+  .lastName,
+  .e_mail,
+  .select,
+  .checkBox,
+  .formBox p {
+    grid-column: 1/3;
+  }
+}

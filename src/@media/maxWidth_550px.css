@@ -1,0 +1,41 @@
+@media screen and (max-width: 550px) {
+  .switcher {
+    padding: 4px 10px;
+  }
+
+  .official {
+    font-size: 8px;
+  }
+
+  .navItem {
+    font-size: 11px;
+  }
+
+  .content_1 {
+    height: 500px;
+  }
+
+  .content_2_background {
+    height: 1170px;
+  }
+
+  .contentMap {
+    height: 780px;
+  }
+
+  .governor {
+    height: 800px;
+  }
+
+  .left_1 img {
+    width: 100%;
+  }
+
+  .contentMap h2 {
+    padding-top: 0px;
+  }
+
+  .switcher {
+    padding: 10px 10px;
+  }
+}

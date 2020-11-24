@@ -1,0 +1,49 @@
+.sliders {
+  width: 100%;
+}
+
+.slideDenali,
+.slideAurora,
+.slideGlaciers,
+.slideWildlife {
+  display: none;
+  width: 100%;
+}
+
+.slideDenali img,
+.slideAurora img,
+.slideGlaciers img,
+.slideWildlife img {
+  width: 100%;
+}
+
+.bannerSwitcher {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: #282828;
+  /* position: absolute;
+      top: 635px;
+      right: 0%; */
+}
+
+.switcher {
+  background-color: #b04d02;
+  margin: 0px 15px;
+  padding: 10px 20px;
+}
+
+.switcher a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 400;
+  color: white;
+}
+
+#aurora,
+#glaciers,
+#wildlife {
+  display: none;
+}

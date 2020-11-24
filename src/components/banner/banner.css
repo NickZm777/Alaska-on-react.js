@@ -1,0 +1,29 @@
+.bannerInfo {
+  width: 100%;
+  height: 115px;
+  display: flex;
+  align-items: center;
+  background-color: #282828;
+}
+
+.bannerTitle {
+  color: white;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 400;
+  border-right: 1px solid #b04d02;
+  padding: 0px 1.3rem;
+}
+
+.bannerDescription {
+  text-decoration: none;
+  color: white;
+  padding: 0px 1rem;
+  display: flex;
+}
+
+.bannerDescription button {
+  margin-left: 20px;
+  height: min-content;
+  align-self: center;
+}

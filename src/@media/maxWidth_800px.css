@@ -1,0 +1,56 @@
+@media screen and (max-width: 800px) {
+  .official {
+    letter-spacing: 0px;
+  }
+
+  .navItem {
+    font-size: 13px;
+  }
+
+  .footerContent {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .formBox {
+    width: 100%;
+  }
+
+  .apps {
+    text-align: center;
+  }
+
+  .footerBottom li {
+    margin: 0px 20px;
+    font-size: 12px;
+  }
+
+  .governorDesription {
+    padding: 5px 15px;
+  }
+
+  .left_1 img {
+    float: unset;
+  }
+
+  .left_1 p {
+    color: white;
+    background-color: black;
+  }
+
+  .content_1 {
+    height: 500px;
+  }
+
+  .content_2_background {
+    height: 1300px;
+  }
+
+  .contentMap {
+    height: 850px;
+  }
+
+  .governor {
+    height: 888px;
+  }
+}

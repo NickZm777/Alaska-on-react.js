@@ -1,0 +1,144 @@
+.container_1 {
+  width: 100%;
+  background-color: #000000b8;
+  padding: 25px;
+}
+
+.content_1 {
+  background-image: url(./images/background-content-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 85%;
+  height: 400px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-around;
+  background-color: #000000ec;
+}
+
+.left_1 h2,
+.right_1 h2 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: lighter;
+  margin-top: 0px;
+}
+
+.left_1,
+.right_1 {
+  width: 50%;
+  margin: 30px;
+  text-align: center;
+}
+
+.left_1 img {
+  float: left;
+}
+
+.right_1 img {
+  padding: 20px;
+}
+
+.left_1 {
+  border-right: 1px solid white;
+}
+
+.buttonHref {
+  background-color: #8a200f;
+  border: none;
+  padding: 4px;
+}
+
+.buttonHref a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.content_2_background {
+  background-color: antiquewhite;
+  display: flex;
+  width: 85%;
+  height: 650px;
+  margin: 25px auto;
+  justify-content: space-around;
+}
+
+.content_2 {
+  margin: 25px;
+  width: 65%;
+  border-right: 1px solid black;
+}
+
+.content_2 h3,
+.right_3 h3 {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: #0067ac;
+  text-transform: uppercase;
+  font-weight: 350;
+  font-size: 25px;
+}
+
+.content_2_box {
+  display: flex;
+}
+
+.left_2,
+.right_2 {
+  padding: 0px 20px;
+  width: 50%;
+  text-transform: uppercase;
+}
+
+.left_2 h4 a,
+.right_2 h4 a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(212, 8, 8);
+}
+
+.left_2 p a,
+.right_2 p a {
+  text-decoration: none;
+  color: rgb(129, 28, 28);
+  font-weight: 600;
+}
+
+.left_2 p,
+.right_2 p {
+  font-size: 12px;
+}
+
+.footer_2 h5 {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.08rem;
+}
+
+.footer_2 ul li {
+  display: inline-block;
+  margin: 0px 5%;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.footer_2 ul li a {
+  text-decoration: none;
+  color: #861b0a;
+}
+
+.right_3 {
+  width: 35%;
+  margin: 25px;
+}
+
+.left_2 img,
+.right_2 img,
+.right_3 img {
+  width: 100%;
+}

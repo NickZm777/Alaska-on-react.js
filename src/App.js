@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/header/header.jsx";
+import Sliders from "./components/sliders/sliders.jsx";
+import Banner from "./components/banner/banner.jsx";
+import Content from "./components/content/content.jsx";
+import Map from "./components/map/map.jsx";
+import Governor from "./components/governor/governor.jsx";
+import Footer from "./components/footer/footer.jsx";
+import "./components/banner/banner.css";
+import "./components/content/content.css";
+import "./components/map/map.css";
+import "./components/governor/governor.css";
+import "./components/footer/footer.css";
+import "./components/sliders/sliders.css";
+import "./components/header/header.css";
+import "./@media/maxWidth_1000px.css";
+import "./@media/maxWidth_800px.css";
+import "./@media/maxWidth_670px.css";
+import "./@media/maxWidth_550px.css";
+import "./@media/maxWidth_510px.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Sliders />
+      <Banner />
+      <Content />
+      <Map />
+      <Governor />
+      <Footer />
     </div>
   );
 }

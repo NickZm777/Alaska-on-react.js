@@ -1,0 +1,160 @@
+.footer {
+  width: 100%;
+  background-color: #ffffffea;
+}
+
+.footer button {
+  padding: 4px;
+  text-align: center;
+  background-color: #ad230d;
+  text-transform: uppercase;
+  margin: 0px auto;
+}
+
+.footer p {
+  text-align: center;
+  padding-left: 15px;
+}
+
+.footer p a {
+  text-decoration: none;
+  color: white;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about,
+.form,
+.links {
+  padding: 0px 15px;
+}
+
+.about h5,
+.formBox h5,
+.links h5 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about ul {
+  list-style: none;
+}
+
+.about li {
+  padding: 7px 0px;
+}
+
+.about li a {
+  text-decoration: none;
+  color: #8a200f;
+}
+
+.formBox {
+  width: 40%;
+}
+
+.formBox form {
+  background-color: #616161;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  column-gap: 3px;
+  border-radius: 10px;
+  height: 360px;
+  background-image: url(./images/moose.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.firstName,
+.lastName,
+.eMail,
+.select,
+.checkBox {
+  grid-column: 1/2;
+  padding: 0px 20px;
+}
+
+.firstName input,
+.lastName input,
+.eMail input {
+  width: 100%;
+}
+
+.checkBox label,
+.formBox p {
+  color: #ebebc2;
+}
+
+.checkBox label a,
+.select label {
+  color: #a4f7fc;
+  text-decoration: none;
+}
+
+.submitForm {
+  grid-column: 1/2;
+  margin: 5px auto;
+}
+
+.clearForm {
+  grid-column: 2/3;
+  margin: 5px auto;
+}
+
+.submitForm button,
+.clearForm button {
+  color: white;
+  border: none;
+  text-transform: capitalize;
+  width: 70px;
+}
+
+.socialLinks ul {
+  text-align: center;
+  padding: 0px 1px;
+}
+
+.socialLinks li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 5px;
+}
+
+.socialLinks img {
+  width: 24px;
+  height: 24px;
+}
+
+.apps div {
+  display: inline-block;
+  margin: 0px auto;
+}
+
+.apps img {
+  width: 100px;
+  height: 35px;
+}
+
+.footerBottom ul {
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+}
+
+.footerBottom li {
+  display: inline;
+  list-style: none;
+  margin: 0px 30px;
+  text-transform: uppercase;
+}
+
+.footerBottom li a {
+  color: #8a200f;
+  text-decoration: none;
+}
